@@ -24,3 +24,11 @@
     margin: 0;
     padding: 0;
   }
+  .body > .div{
+      border-color: red;
+  }
+
+
+  .div{
+      border-color: green;
+  }
