@@ -1,12 +1,12 @@
 :root {
-	--main-bg-color: #ffffff;
-	--secondary-bgc: #e0e0e0;
-	--main-title-color: #323232;
-	--secondary-title-color: #fff;
-	--third-title-color: #000000;
-	--main-text-color: #999999;
-	--secondary-text-color: #ffffff;
-	--accent-color: #4985ff;
+  --main-bg-color: #ffffff;
+  --secondary-bgc: #e0e0e0;
+  --main-title-color: #323232;
+  --secondary-title-color: #fff;
+  --third-title-color: #000000;
+  --main-text-color: #999999;
+  --secondary-text-color: #ffffff;
+  --accent-color: #4985ff;
 }
 
 p,
@@ -16,165 +16,169 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .body > .div {
-	border-color: red;
+  border-color: red;
 }
 
 .container {
-	width: 1140px;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin: 0 auto;
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .hero {
-	background-color: grey;
-	padding-top: 319px;
-	padding-bottom: 335px;
+  background-color: grey;
+  padding-top: 319px;
+  padding-bottom: 335px;
 }
 
 .hero-text {
-	font-weight: 500;
-	font-size: 16px;
-	line-height: calc(20 / 16);
-	text-align: center;
-	color: var(--secondary-text-color);
-	margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  text-align: center;
+  color: var(--secondary-text-color);
+  margin-bottom: 20px;
 }
 
 .hero-title {
-	width: 829px;
-	font-weight: 800;
-	font-size: 48px;
-	line-height: calc(64 / 48);
-	text-align: center;
-	color: var(--secondary-title-color);
-	margin: 0 auto;
-	margin-bottom: 50px;
+  width: 829px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: calc(64 / 48);
+  text-align: center;
+  color: var(--secondary-title-color);
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .btn {
-	display: block;
-	background-color: var(--accent-color);
-	box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
-	border-radius: 30px;
-	border: none;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: calc(20 / 16);
-	text-align: center;
-	color: var(--secondary-text-color);
-	padding: 13px 36px 15px;
-	margin: 0 auto;
+  display: block;
+  background-color: var(--accent-color);
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  text-align: center;
+  color: var(--secondary-text-color);
+  padding: 13px 36px 15px;
+  margin: 0 auto;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 .nav-list {
-	display: flex;
-	justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 .nav-link {
-	display: block;
-	padding: 40px 20px;
+  display: block;
+  padding: 40px 20px;
 
-	font-family: "Montserrat";
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: calc(20 / 16);
-	color: var(--secondary-text-color);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  color: var(--secondary-text-color);
 }
 .header {
-	border-bottom: 1px solid #a1a1a1;
-	background-color: blueviolet;
+  border-bottom: 1px solid #a1a1a1;
+  background-color: blueviolet;
 }
 
 /* mobile section */
 
 .mobile {
-	padding-top: 110px;
-	padding-bottom: 105px;
+  padding-top: 110px;
+  padding-bottom: 105px;
+  background-image: linear-gradient(blueviolet, blueviolet), linear-gradient(green, green);
+  background-repeat: no-repeat;
+  background-size: 100% 70%, 100% 30%;
+  background-position: center bottom, center top;
 }
 
 .mobile-title {
-	margin-bottom: 32px;
-	font-family: "Montserrat";
-	font-weight: 700;
-	font-size: 36px;
-	line-height: calc(53 / 36);
-	text-align: center;
-	color: var(--main-title-color);
+  margin-bottom: 32px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(53 / 36);
+  text-align: center;
+  color: var(--main-title-color);
 }
 
 .mobile-text {
-	margin-bottom: 70px;
-	font-family: "Montserrat";
-	font-weight: 400;
-	font-size: 16px;
-	line-height: calc(25 / 16);
-	text-align: center;
-	color: var(--main-text-color);
+  margin-bottom: 70px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(25 / 16);
+  text-align: center;
+  color: var(--main-text-color);
 }
 
 .mobile-list {
-	display: flex;
-	gap: 30px;
-	margin-bottom: 55px;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 55px;
 }
 
 .mobile-item {
-	display: flex;
+  display: flex;
 }
 
 .mobile-circle {
-	width: 110px;
-	height: 110px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-shrink: 0;
-	border-radius: 50%;
-	border: 1px solid var(--secondary-bgc);
-	margin-right: 17px;
+  width: 110px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 1px solid var(--secondary-bgc);
+  margin-right: 17px;
 }
 
 .mobile-second-circle {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 90px;
-	height: 90px;
-	border-radius: 50%;
-	border: 1px solid var(--accent-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 1px solid var(--accent-color);
 }
 
 .mobile-icon {
-	fill: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .mobile-circle:hover .mobile-second-circle {
-	background-color: var(--accent-color);
+  background-color: var(--accent-color);
 }
 .mobile-circle:hover .mobile-icon {
-	fill: #ffffff;
+  fill: #ffffff;
 }
 
 .mobile-content {
-	padding-top: 45px;
+  padding-top: 45px;
 }
 
 .mobile-subtitle {
-	margin-bottom: 12px;
+  margin-bottom: 12px;
 }
