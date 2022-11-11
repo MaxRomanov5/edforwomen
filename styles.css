@@ -202,3 +202,28 @@ a {
 .mobile-subtitle {
   margin-bottom: 12px;
 }
+@keyframes f-anim {
+  0%{
+    transform:  translate(0,0) ;
+  
+      }
+      25%{
+        transform:  translate(-100%,0) ;
+        color: aqua;
+      }
+      50%{
+        transform:  translate(-100%,100%) ;
+        color: blue;
+      }
+      75%{
+        transform:  translate(0,100%) ;
+        color: chocolate;
+      }
+      100%{
+        transform:  translate(0,0) ;
+      
+      }
+}
+.current{
+  animation : f-anim 4s infinite;
+}
