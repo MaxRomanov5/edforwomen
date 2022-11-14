@@ -227,3 +227,37 @@ a {
 .current{
   animation : f-anim 4s infinite;
 }
+
+.input-hide {
+  appearance: none;
+}
+
+.input-wrap {
+  width: 80px;
+  height: 40px;
+  border-radius: 34px;
+  background-color: grey;
+  position: relative;
+  transition: background-color 500ms ease-in-out;
+  cursor: pointer;
+}
+
+.input-hide:checked + .input-wrap {
+  background-color: green;
+}
+
+.input-hide:checked + .input-wrap .toggle {
+  transform: translate(40px, -50%);
+}
+
+.toggle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 4px;
+  transition: transform 500ms ease-in-out;
+}
