@@ -26,7 +26,7 @@ ul {
   list-style: none;
 }
 
-.body > .div {
+.body>.div {
   border-color: red;
 }
 
@@ -36,6 +36,7 @@ ul {
   padding-right: 15px;
   margin: 0 auto;
 }
+
 /*  */
 .hero {
   background-color: grey;
@@ -81,10 +82,12 @@ ul {
 a {
   text-decoration: none;
 }
+
 .nav-list {
   display: flex;
   justify-content: flex-end;
 }
+
 .nav-link {
   display: block;
   padding: 40px 20px;
@@ -96,14 +99,17 @@ a {
   line-height: calc(20 / 16);
   color: var(--secondary-text-color);
 }
+
 .header {
   border-bottom: 1px solid #a1a1a1;
   background-color: blueviolet;
 }
+
 .current {
   position: relative;
   animation: flash 2s infinite;
 }
+
 .current::after {
   content: "";
   display: block;
@@ -114,10 +120,12 @@ a {
   left: 0;
   background-color: #fff;
 }
+
 .current:hover {
   color: red;
 }
-.current:hover::after{
+
+.current:hover::after {
   background-color: red;
 }
 
@@ -191,6 +199,7 @@ a {
 .mobile-circle:hover .mobile-second-circle {
   background-color: var(--accent-color);
 }
+
 .mobile-circle:hover .mobile-icon {
   fill: #ffffff;
 }
@@ -202,30 +211,36 @@ a {
 .mobile-subtitle {
   margin-bottom: 12px;
 }
+
 @keyframes f-anim {
-  0%{
-    transform:  translate(0,0) ;
-  
-      }
-      25%{
-        transform:  translate(-100%,0) ;
-        color: aqua;
-      }
-      50%{
-        transform:  translate(-100%,100%) ;
-        color: blue;
-      }
-      75%{
-        transform:  translate(0,100%) ;
-        color: chocolate;
-      }
-      100%{
-        transform:  translate(0,0) ;
-      
-      }
+  0% {
+    transform: translate(0, 0);
+
+  }
+
+  25% {
+    transform: translate(-100%, 0);
+    color: aqua;
+  }
+
+  50% {
+    transform: translate(-100%, 100%);
+    color: blue;
+  }
+
+  75% {
+    transform: translate(0, 100%);
+    color: chocolate;
+  }
+
+  100% {
+    transform: translate(0, 0);
+
+  }
 }
-.current{
-  animation : f-anim 4s infinite;
+
+.current {
+  animation: f-anim 4s infinite;
 }
 
 .input-hide {
@@ -242,11 +257,11 @@ a {
   cursor: pointer;
 }
 
-.input-hide:checked + .input-wrap {
+.input-hide:checked+.input-wrap {
   background-color: green;
 }
 
-.input-hide:checked + .input-wrap .toggle {
+.input-hide:checked+.input-wrap .toggle {
   transform: translate(40px, -50%);
 }
 
@@ -260,4 +275,9 @@ a {
   transform: translateY(-50%);
   left: 4px;
   transition: transform 500ms ease-in-out;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
 }

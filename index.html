@@ -13,6 +13,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
 		rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 	<title>Document</title>
 	<link rel="stylesheet" href="./styles.css" />
 </head>
@@ -46,7 +47,38 @@
 					<div class="toggle"></div>
 				</div>
 			</label>
-			
+
+			<div class="swiper">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+					<!-- Slides -->
+					<div class="swiper-slide">
+						<img src="./img/img-1.png" alt="fg">
+					</div>
+					<div class="swiper-slide">Другий слайд</div>
+					<div class="swiper-slide">
+						<label>
+							<input type="checkbox" class="input-hide">
+							<div class="input-wrap">
+								<div class="toggle"></div>
+							</div>
+						</label>
+					</div>
+					<div class="swiper-slide">
+						<img src="./img/img-2.png" alt="fg">
+					</div>
+				</div>
+				<!-- If we need pagination -->
+				<div class="swiper-pagination"></div>
+
+				<!-- If we need navigation buttons -->
+				<!-- <div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div> -->
+
+				<!-- If we need scrollbar -->
+				<!-- <div class="swiper-scrollbar"></div> -->
+			</div>
+
 		</div>
 	</header>
 	<main>
@@ -173,6 +205,8 @@
 			</ul>
 		</section>
 	</main>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="./index.js"></script>
 </body>
 
 </html>
