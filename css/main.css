@@ -35,4 +35,43 @@
 .services-button {
   margin: 10px 15px;
   padding: 40px;
+}
+
+.auto-wrap {
+  width: 1000px;
+  height: 1000px;
+  display: flex;
+  gap: 50px;
+}
+
+.auto {
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.audi {
+  background-image: url("../../img/audi.jpg");
+  font-size: 14px;
+}
+
+.bmv {
+  background-image: url("../../img/bmv.jpg");
+  font-size: 14px;
+}
+
+.lanos {
+  background-image: url("../../img/lanos.jpg");
+  font-size: 14px;
+}
+
+.mazda {
+  background-image: url("../../img/mazda.jpg");
+  font-size: 14px;
+}
+
+.kia {
+  background-image: url("../../img/kia.jpg");
+  font-size: 14px;
 }/*# sourceMappingURL=main.css.map */

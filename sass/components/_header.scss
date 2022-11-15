@@ -42,3 +42,22 @@
     // @extend %button;
     @include btn(10px 15px, 40px);
 }
+
+.auto-wrap {
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    gap: 50px;
+}
+.auto {
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@each $av in audi, bmv, lanos, mazda, kia {
+    .#{$av} {
+        background-image: url('../../img/#{$av}.jpg');
+        font-size: 14px;
+    }
+}
