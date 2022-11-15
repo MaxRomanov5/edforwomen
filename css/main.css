@@ -30,4 +30,9 @@
 
 .input-hide:checked + .input-wrap {
   background-color: green;
+}
+
+.services-button {
+  margin: 10px 15px;
+  padding: 40px;
 }/*# sourceMappingURL=main.css.map */

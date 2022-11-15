@@ -1,0 +1,4 @@
+@mixin btn($mr:20px, $pd:30px) {
+    margin: $mr;
+    padding: $pd;
+}

@@ -37,3 +37,8 @@
         background-color: green;
     }
 }
+
+.services-button {
+    // @extend %button;
+    @include btn(10px 15px, 40px);
+}
