@@ -74,4 +74,47 @@
 .kia {
   background-image: url("../../img/kia.jpg");
   font-size: 14px;
+}
+
+.main-wrap {
+  width: 200px;
+  height: 700px;
+  background-color: black;
+}
+@media screen and (min-width: 768px) {
+  .main-wrap {
+    width: 450px;
+    height: 400px;
+    display: flex;
+    gap: 0 50px;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main-wrap {
+    width: 700px;
+    height: 200px;
+  }
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+@media screen and (max-width: 767.98px) {
+  .box {
+    margin-bottom: 20px;
+  }
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
 }/*# sourceMappingURL=main.css.map */

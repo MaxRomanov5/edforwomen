@@ -1,0 +1,56 @@
+.main-wrap {
+    width: 200px;
+    height: 700px;
+    background-color: black;
+
+    // @media screen and (min-width: 768px) {
+    //     width: 450px;
+    //     height: 400px;
+    //     display: flex;
+    //     gap: 0 50px;
+    //     flex-wrap: wrap;
+    // }
+
+@include mq(tab) {
+    width: 450px;
+    height: 400px;
+    display: flex;
+    gap: 0 50px;
+    flex-wrap: wrap;
+}
+
+@include mq(desk) {
+    width: 700px;
+    height: 200px;
+}
+
+    // @media screen and (min-width: 1200px) {
+    //     width: 700px;
+    //     height: 200px;
+    // }
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+
+    @include mq(mob-only) {
+        margin-bottom: 20px;
+    }
+    
+    // @media screen and (max-width: 767px) {
+    //     margin-bottom: 20px;
+    // }
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
