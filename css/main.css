@@ -95,6 +95,44 @@
   }
 }
 
+.bcg-img {
+  height: 580px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../img/bcg-mob1x.jpg");
+}
+@media screen and (min-width: 768px) {
+  .bcg-img {
+    height: 680px;
+  }
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .bcg-img {
+    background-image: url("../../img/bcg-mob2x.jpg");
+  }
+}
+@media screen and (min-width: 1200px) {
+  .bcg-img {
+    background-image: url("../../img/bcg-deskx1.jpg");
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .bcg-img {
+    background-image: url("../../img/bcg-deskx2.jpg");
+  }
+}
+@media screen and (min-width: 768px) {
+  .bcg-img {
+    background-image: url("../../img/bcg-tablet1x.jpg");
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .bcg-img {
+    background-image: url("../../img/bcg-tablet2x.jpg");
+  }
+}
+
 .main-wrap {
   width: 200px;
   height: 700px;
