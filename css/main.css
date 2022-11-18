@@ -76,6 +76,25 @@
   font-size: 14px;
 }
 
+.barber {
+  max-height: 350px;
+}
+@media screen and (min-width: 480px) {
+  .barber {
+    width: 418px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .barber {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .barber {
+    width: 370px;
+  }
+}
+
 .main-wrap {
   width: 200px;
   height: 700px;

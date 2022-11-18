@@ -61,3 +61,16 @@
         font-size: 14px;
     }
 }
+
+.barber {
+    max-height: 350px;
+    @include mq(mob) {
+        width: 418px;
+    }
+    @include mq(tab) {
+        width: 450px;
+    }
+    @include mq(desk) {
+        width: 370px;
+    }
+}
